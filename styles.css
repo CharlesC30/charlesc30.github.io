@@ -57,6 +57,7 @@ p {
 
 /* media queries */
 @media all and (orientation: portrait) {
+    /* scale everything up for portrait mode */
     .center {
         margin: 0 auto;
         width: 80%;
