@@ -1,2 +1,2 @@
-# my_website
-get ready, get set
+# My personal website hosted on GitHub Pages
+
