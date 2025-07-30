@@ -1,22 +1,27 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
+    font-size: 25px;
 }
 
 a {
-    font-size: 25px;
+    font-size: 1em;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 2em;
 }
 
 p {
-    font-size: 25px;
+    font-size: 1em;
+}
+
+li {
+    font-size: 0.9em;
 }
 
 .text-icon {
-    width: 21px;
+    width: 0.83em;
 }
 
 .even-spaced-container {
@@ -27,7 +32,7 @@ p {
 
 .center {
     margin: 0 auto;
-    width: 800px;
+    width: 60%;
 }
 
 .center-text {
@@ -62,24 +67,13 @@ p {
 /* media queries */
 @media all and (orientation: portrait) {
     /* scale everything up for portrait mode */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+    }
     .center {
         margin: 0 auto;
         width: 80%;
-    }
-    a {
-        font-size: 18px;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    .text-icon {
-        width: 15px;
     }
 }
 
