@@ -39,6 +39,16 @@ li {
     text-align: center;
 }
 
+.website-header {
+    text-align: center;
+    margin-bottom: 0.1em;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
 .flying-right {
     position: relative;
     top: 50%;
