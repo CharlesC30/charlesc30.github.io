@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Charles Clark</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="center">
+    <h1 class="website-header">Charles Clark</h1>
+  </div>
+
+  <div class="center navbar">
+    <a href="/index.html">Homepage</a> | 
+    <a href="/assets/Charles_Clark_CV_2025_03_18.pdf">CV</a> | 
+    <a href="/publications.html">Publications</a> | 
+    <a href="/blog.html">Blog</a>
+  </div>
+
+  <div class="center">
+    {{ content }}
+  </div>
+</body>
+</html>
