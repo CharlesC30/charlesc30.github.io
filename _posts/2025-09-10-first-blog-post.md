@@ -17,7 +17,7 @@ I may also use this blog to showcase non-technical things from my life too. This
 
 ### Tooling
 
-For those curious about the tooling I used for this site and blog. I've had this website up for a few months and used it as an opportunity to build my web development skills during my job search. I wanted to start with the basics so at first I wrote it entirely in pure HTML/CSS. I was inspired by the simple design of Jonathan Lam's website [(lambdalambda.ninja)](https://lambdalambda.ninja/) and wanted to create a similar aesthetic. 
+For those curious about the tooling; I've had this website up for a few months and used it as an opportunity to build my web development skills during my job search. I wanted to start with the basics so at first I wrote it entirely in pure HTML/CSS. I was inspired by the simple design of Jonathan Lam's website [(lambdalambda.ninja)](https://lambdalambda.ninja/) and wanted to create a similar aesthetic. 
 
 This site is hosted using GitHub Pages. I've been really impressed with how easy and seamless it is to host a personal website with GitHub Pages. It's literally as simple as creating a GitHub repo with a certain name and creating an HTML file. I can definitely see why it's the go-to hosting service for programmer portfolios and similar sites. 
 
