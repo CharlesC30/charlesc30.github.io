@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>3Diffusion</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #000;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <script type="text/javascript">
+    var Module = {
+      canvas: (function() { return document.getElementById('canvas'); })()
+    };
+  </script>
+  <script async type="text/javascript" src="3Diffusion.js"></script>
+</body>
+</html>
